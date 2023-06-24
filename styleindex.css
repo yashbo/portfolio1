@@ -1,0 +1,229 @@
+*{
+    margin:0px 0px 0px 0px;
+    box-sizing: border-box;
+}
+h2{
+    font-size: 35px;
+    color: darkblue;
+}
+body{
+    background-color: aqua;
+}
+.head{
+    background-color: darkblue;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+    font-display: auto;
+    color: white;
+    margin-bottom: 1px;
+
+}
+.p{
+    color:cyan;
+    font-size: 50px;
+    text-align: center;
+}
+.q{
+    margin: 10px 10px 10px 10px;
+}
+nav{
+    background-color: darkcyan;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+button{
+    margin: 1px 3px 1px 1px;
+    padding: 2px 2px 2px 2px;
+    border: 2px 2px 2px 2px;
+    border-color: aliceblue;
+    border-radius: 1%;
+}
+a{
+    color:blue;
+}
+a:visited{
+    color: magenta;
+    background-color: aqua;
+} 
+a:hover{
+    color:crimson;
+}
+button:hover{
+    color:crimson;
+    background-color: darkcyan;
+    cursor: pointer;
+}
+button:active{
+    background-color: chartreuse;
+    text-decoration: underline;
+}
+#name{
+    font-size: larger;
+    margin-bottom: 5px;
+    text-align: center;
+}
+#info{
+    text-align: left;
+}
+img.user{
+    display: block;
+    max-height: 400px;
+    max-width: 200px;
+    margin-top:20px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 10px;
+    border-radius: 50%;
+    align-items: center;
+}
+/* .b{
+    text-align: left;
+    margin: 2px 2px 2px 50px;
+} */
+
+/*for mobile*/
+@media  screen and (max-device-width : 600px) {
+    img.user{
+        float: none;
+        max-height: 400px;
+        max-width: 200px;
+        margin-top:20px;
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 10px;
+        border-radius: 50%;
+        align-items: center;
+    }
+    #name{
+        text-align: left;
+    }
+    #info{
+        text-align: left;
+        margin: 1px 1px 1px 1px;
+    }
+    .b{
+        margin:1px 1px 1px 1px;
+    }
+}
+/*for skills*/
+
+.all-skills{
+    display: flex;
+    flex-direction: row;
+    flex-wrap:wrap;
+}
+
+.skill {
+    border: 1px solid gray;
+    display: block;
+    border-radius: 6px;
+    text-align: center;
+    margin: 50px;
+    padding: 10px;
+    width: 2in;
+    font-size: 20px;
+    box-shadow: 0 5px 10px gray;
+  }
+.skill img{
+    max-height: 55px;
+    max-width: 35px;
+}
+/* for courses */
+.f{
+    margin: 2px 2px 2px 50px;
+}
+.u{
+    text-align: left;
+}
+.certi-course{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.course{
+    border: 1px solid gray;
+    display:block;
+    border-radius: 6px;
+    text-align: center;
+    margin: 10px;
+    padding: 5px;
+    font-size: 16px;
+    box-shadow: 0 5px 10px gray;
+}
+.course h4{
+    text-decoration: underline;
+}
+.projects{
+    display: flex;
+    flex-direction: row;
+    flex-wrap:wrap;
+}
+.project{
+    border: 1px solid gray;
+    display:block;
+    border-radius: 6px;
+    text-align: center;
+    margin: 10px;
+    padding: 5px;
+    font-size: 16px;
+    box-shadow: 0 5px 10px gray;
+}
+.project h3{
+    text-decoration: underline;
+}
+
+/* for projects */
+.unit{
+    text-align: left;
+}
+.calc{
+    text-align: left;
+}
+.achievements{
+    display: flex;
+    flex-direction: row;
+    flex-wrap:wrap;
+}
+.achievement{
+    border: 1px solid gray;
+    display:block;
+    border-radius: 6px;
+    text-align: center;
+    margin: 10px;
+    padding: 5px;
+    font-size: 16px;
+    box-shadow: 0 5px 10px gray;
+}
+.achievement h3{
+    text-decoration: underline;
+}
+.iconbutton{
+    width:40px;
+    height:40px;
+    border-radius: 100%;
+    background-color: rgb(225, 235, 235);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: fixed;
+    bottom:40px;
+    left:0;
+    }
+.iconbutton img {
+    width:30px
+}
+.contacts{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.contact{
+    border: 1px solid gray;
+    display: block;
+    border-radius: 6px;
+    text-align: center;
+    margin: 10px;
+    padding: 5px;
+    font-size: 16px;
+    box-shadow: 0 5px 10px gray;
+}
